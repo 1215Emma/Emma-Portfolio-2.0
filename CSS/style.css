@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "roboto Cn", sans-serif;
+} 
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+body {
+    overflow-x: hidden;
+    background-color: black;
+    height: 1000px;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/Surfboard-Pikachu.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-navigation{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.Emma-Tran {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{ 
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 1rem 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 2px;
+    }
+
+nav ul li a:last-child {
+    margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ff1493;
+    left: 0;
+    transform: ScaleX(0);
+    transition: all .5s;
+}
+
+nav ul li a::before {
+    top: 0;
+    transform-origin: left;
+}
+nav ul li a::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after {
+    transform: ScaleX(1);
+}
+
+.carousel-inner {
+    width: fixed;
+    height: fixed;
+}
