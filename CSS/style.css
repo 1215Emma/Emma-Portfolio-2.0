@@ -90,6 +90,5 @@ nav ul li a:hover::after {
 }
 
 .carousel-inner {
-    width: fixed;
-    height: fixed;
-}
+    height: 60rem;
+  }
