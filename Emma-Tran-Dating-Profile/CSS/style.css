@@ -89,6 +89,7 @@ nav ul li a:hover::after {
     transform: ScaleX(1);
 }
 
-.container .custom-container  {
-    width: 30%;
+.carousel-inner {
+    width: fixed;
+    height: fixed;
 }
