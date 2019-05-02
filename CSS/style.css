@@ -92,3 +92,7 @@ nav ul li a:hover::after {
 .carousel-inner {
     height: 60rem;
   }
+  
+.container-fluid header{
+    font-size: 36px;
+}
