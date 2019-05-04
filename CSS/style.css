@@ -46,10 +46,16 @@ body {
     color: white;
 }
 
+#Nav-links3 {
+    font-size: 16px;
+    color: white;
+    padding-left: 63em;
+}
 #navbarDropdown {
     font-size: 16px;
     color: white;
 }
+
 
 #first-container {
     color: white;
@@ -62,8 +68,9 @@ body {
     padding-top: 10em;
     padding-bottom: 10em;
     height: 60em;
-    **/
+    
 }
+**/
 #container1-header {
     color: pink;
     font-size: 36px;
@@ -77,3 +84,12 @@ body {
     height: 61em;
 }
 
+#About-me-navigations {
+    padding-top: 1em;
+    font-size: 30px;
+    
+}
+
+#About-me-active {
+    font-size: 24x;
+}
