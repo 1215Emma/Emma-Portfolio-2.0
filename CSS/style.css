@@ -17,10 +17,10 @@ body {
 body {
     width: 100%;
     height: 100vh;
-    background: url("../images/Surfboard-Pikachu.jpg") center no-repeat fixed;
+    background: url("../images/Black.jpg") center no-repeat fixed;
     background-size: cover;
 }
-
+/**
 .jumbotron {
     background: url("../images/DetectivePikachuBordered.jpg") top center;
     background-size: cover;
@@ -29,7 +29,51 @@ body {
     padding-bottom: 10em;
     height: 60em;
 }
+**/
+/**
 #jumbotron-intro {
     font-size: 24px;
     color: pink;
 }
+**/
+#Emmachu-header {
+    font-size: 24px;
+    color: pink;
+}
+
+#Nav-links {
+    font-size: 16px;
+    color: white;
+}
+
+#navbarDropdown {
+    font-size: 16px;
+    color: white;
+}
+
+#first-container {
+    color: white;
+}
+/**
+#container1-images {
+    background: url("../images/DetectivePikachuBordered.jpg");
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    height: 60em;
+    **/
+}
+#container1-header {
+    color: pink;
+    font-size: 36px;
+}
+
+#container1-introduction {
+    font-size: 24px;
+}
+
+#Mirror-Emma {
+    height: 61em;
+}
+
