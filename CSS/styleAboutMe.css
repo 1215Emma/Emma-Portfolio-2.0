@@ -60,17 +60,7 @@ body {
 #first-container {
     color: white;
 }
-/**
-#container1-images {
-    background: url("../images/DetectivePikachuBordered.jpg");
-    background-size: cover;
-    margin-top: 1em;
-    padding-top: 10em;
-    padding-bottom: 10em;
-    height: 60em;
-    
-}
-**/
+
 #container1-header {
     color: pink;
     font-size: 36px;
@@ -89,3 +79,19 @@ body {
 #About-me-active {
     font-size: 24x;
 }
+
+#AboutMeHeader h1{
+    color: white;
+    font-size: 35px;
+}
+
+#AboutMeBody h2{
+    color: pink;
+    font-size: 24px;
+}
+#AboutMeBody p{
+    color: hotpink;
+    font-size: 20px;
+}
+#AboutMeContainer {
+    }
