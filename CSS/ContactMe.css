@@ -41,40 +41,7 @@ body {
     color: white;
 }
 
-
-#first-container {
-    color: white;
-}
-
-#container1-header {
-    color: pink;
-    font-size: 36px;
-}
-
-#container1-introduction {
-    font-size: 24px;
-}
-
-#About-me-navigations {
-    padding-top: 1em;
-    font-size: 30px;
-    
-}
-
-#About-me-active {
-    font-size: 24x;
-}
-
-#AboutMeHeader h1{
-    color: white;
-    font-size: 35px;
-}
-
-#AboutMeBody h2{
-    color: pink;
-    font-size: 24px;
-}
-#AboutMeBody p{
-    color: hotpink;
-    font-size: 20px;
+#ContactMeForm {
+    padding-left: 2em;
+    padding-right: 2em;
 }
