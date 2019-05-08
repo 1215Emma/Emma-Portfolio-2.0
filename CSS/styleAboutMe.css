@@ -17,7 +17,7 @@ body {
 body {
     width: 100%;
     height: 100vh;
-    background: url("../images/CherryBlossom.jpg") center no-repeat fixed;
+    background: url("../images/Pink-Stripes.png") center no-repeat fixed;
     background-size: cover;
 }
 
@@ -71,10 +71,10 @@ body {
 }
 
 #AboutMeBody h2{
-    color: pink;
+    color: blueviolet;
     font-size: 24px;
 }
 #AboutMeBody p{
-    color: hotpink;
+    color: green;
     font-size: 20px;
 }
