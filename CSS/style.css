@@ -20,22 +20,7 @@ body {
     background: url("../images/Pink-Stripes.png") center no-repeat fixed;
     background-size: cover;
 }
-/**
-.jumbotron {
-    background: url("../images/DetectivePikachuBordered.jpg") top center;
-    background-size: cover;
-    margin-top: 1em;
-    padding-top: 10em;
-    padding-bottom: 10em;
-    height: 60em;
-}
-**/
-/**
-#jumbotron-intro {
-    font-size: 24px;
-    color: pink;
-}
-**/
+
 #Emmachu-header {
     font-size: 24px;
     color: rebeccapurple;
@@ -58,19 +43,14 @@ body {
 
 
 #first-container {
-    color: white;
+    color: lightslategray;
+    font: solid;
 }
-/**
-#container1-images {
-    background: url("../images/DetectivePikachuBordered.jpg");
-    background-size: cover;
-    margin-top: 1em;
-    padding-top: 10em;
-    padding-bottom: 10em;
-    height: 60em;
-    
+
+.carousel-inner {
+    height: 75em;   
 }
-**/
+}
 #container1-header {
     color: palevioletred;
     font-size: 36px;
@@ -88,4 +68,36 @@ body {
 
 #About-me-active {
     font-size: 24x;
+}
+
+#line {
+    color: blue
+}
+
+.wrapper h1 {
+    font-weight: lighter;
+    font-size: 80px;
+    color: palevioletred;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.media {
+    position: absolute;
+    display: inline-block;
+    
+}
+.media li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: palevioletred;
+    transition: .5s;
+}
+
+li:hover {
+    color: #292929;
+    transition: .5s;
 }
