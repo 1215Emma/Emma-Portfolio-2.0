@@ -41,21 +41,24 @@ body {
     color: white;
 }
 
-#ContactMeForm {
-    padding-left: 2em;
-    padding-right: 2em;
+#header1 {
+    padding-left: 10em;
+    font-size: 36px;
+    color: white;
 }
 
-#jumbotron2 {
-    background: none;
-    height: 20em;
-    width: 110em;
-    
+#p1 {
+    padding-left: 10em;
+    font-size: 24px;
+    color: black;
 }
 
-#jumbotron-h1 {
-    font-size: 64px;
+#RHEAimage {
+    padding-top: 2em;
 }
-#jumbotron-p {
-    font-size: 40px;
+
+#ContainerP {
+    padding-top: 1em;   
+    font-size: 24px;
+    color: lightslategray;
 }
