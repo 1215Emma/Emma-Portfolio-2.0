@@ -41,24 +41,3 @@ body {
     color: white;
 }
 
-#header1 {
-    padding-left: 10em;
-    font-size: 36px;
-    color: white;
-}
-
-#p1 {
-    padding-left: 10em;
-    font-size: 24px;
-    color: black;
-}
-
-#RHEAimage {
-    padding-top: 2em;
-}
-
-#ContainerP {
-    padding-top: 1em;   
-    font-size: 20px;
-    color: lightslategray;
-}
