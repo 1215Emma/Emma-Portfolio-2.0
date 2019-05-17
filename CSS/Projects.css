@@ -41,3 +41,46 @@ body {
     color: white;
 }
 
+#project-1 {
+    background-color: pink; 
+    text-align: center;
+}
+
+#project-1:hover {
+ background-color: palevioletred;
+}
+
+#project-2 {
+    background-color: pink;
+    text-align: center;
+}
+
+#project-2:hover {
+ background-color: palevioletred;
+}
+
+#project-3 {
+    background-color: pink;
+    text-align: center;
+}
+
+#project-3:hover {
+ background-color: palevioletred;
+}
+
+#project-4 {
+    background-color: pink;
+    text-align: center;
+}
+
+#project-4:hover {
+ background-color: palevioletred;
+}
+
+.card-img-top {
+    height: 27em;
+}
+
+#project-container {
+    padding-bottom: 2em;
+}
