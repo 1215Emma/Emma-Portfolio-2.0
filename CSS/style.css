@@ -101,3 +101,7 @@ li:hover {
     color: #292929;
     transition: .5s;
 }
+
+.dropdown-menu {
+    color: black;
+}
