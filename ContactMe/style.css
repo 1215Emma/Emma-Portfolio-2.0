@@ -4,19 +4,13 @@
     box-sizing:border-box;
 }
 
-html{
+html, body{
     font-size: 10px;
     font-family: "roboto Cn", sans-serif;
-} 
-
-body {
     overflow-x: hidden;
     background-color: black;
-    height: 1000px;
-}
-body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url("../assets/main/Pink-Stripes.png") center no-repeat fixed;
     background-size: cover;
 }
@@ -26,20 +20,22 @@ body {
     color: rebeccapurple;
 }
 
-#Nav-links {
-    font-size: 16px;
+#nav-link {
+    font-size: 24px;
     color: white;
+}
+  
+#Nav-links3 {
+    font-size: 24px;
+    color: white;
+    padding-left: 90rem;
 }
 
-#Nav-links3 {
-    font-size: 16px;
-    color: white;
-    padding-left: 63em;
-}
 #navbarDropdown {
-    font-size: 16px;
+    font-size: 24px;
     color: white;
-}
+    padding-left: 2rem;
+}  
 
 #ContactMeForm {
     padding-left: 2em;
