@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-html, body{
+html, body {
     font-size: 10px;
     font-family: "roboto Cn", sans-serif;
     overflow-x: hidden;
@@ -15,31 +15,26 @@ html, body{
     background-size: cover;
 }
 
-#Emmachu-header {
-    font-size: 24px;
-    color: rebeccapurple;
+.navbar-brand {
+    padding-right: 2rem;;
 }
-
 #nav-link {
-  font-size: 24px;
+    font-size: 24px;
     color: white;
 }
 
 #Nav-links3 {
     font-size: 24px;
     color: white;
-    padding-left: 98rem;
 }
 #navbarDropdown {
     font-size: 24px;
     color: white;
-    padding-left: 2rem;
 }
 
 #first-container {
     color: lightslategray;
     font: solid;
-    padding-top: 2rem;
 }
 
 .carousel-inner {
@@ -74,7 +69,7 @@ html, body{
     font-size: 80px;
     color: palevioletred;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
     margin-bottom: 0;
 }
 
@@ -100,3 +95,41 @@ li:hover {
 .dropdown-menu {
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    #container1-images {
+        width: 100%;
+    }
+    #container1-intro {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }   
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+#navbar-toggler-color {
+    color:black;
+}
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops) */
