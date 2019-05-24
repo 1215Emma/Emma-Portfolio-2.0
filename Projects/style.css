@@ -4,42 +4,37 @@
     box-sizing:border-box;
 }
 
-html{
+body, html{
     font-size: 10px;
     font-family: "roboto Cn", sans-serif;
-} 
-
-body {
     overflow-x: hidden;
-    background-color: black;
-    height: 1000px;
-}
-body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url("../assets/main/Pink-Stripes.png") center no-repeat fixed;
     background-size: cover;
 }
+
 
 #Emmachu-header {
     font-size: 24px;
     color: rebeccapurple;
 }
 
-#Nav-links {
-    font-size: 16px;
-    color: white;
-}
-
-#Nav-links3 {
-    font-size: 16px;
-    color: white;
-    padding-left: 63em;
-}
-#navbarDropdown {
-    font-size: 16px;
-    color: white;
-}
+#nav-link {
+    font-size: 24px;
+      color: white;
+  }
+  
+  #Nav-links3 {
+      font-size: 24px;
+      color: white;
+      padding-left: 98rem;
+  }
+  #navbarDropdown {
+      font-size: 24px;
+      color: white;
+      padding-left: 2rem;
+  }
 
 #project-1 {
     background-color: pink; 
@@ -83,4 +78,45 @@ body {
 
 #project-container {
     padding-bottom: 2em;
+    padding-top: 3rem;
 }
+
+#headerforprojects2 {
+    padding-top: 2rem;
+    font-size: 36px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media screen and (max-width: 575.98px) { 
+        #project-container {
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+        }
+
+        #headerforproject1 {
+            text-align: center;
+        }
+    }
+    
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+    
+    }
+    
+    /*  Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+    
+    }
+    
+    /* Large devices (desktops, less than 1200px)*/
+    @media (max-width: 1199.98px) {
+    
+    }
+    
+    /* Extra large devices (large desktops) */}
+    
+    
