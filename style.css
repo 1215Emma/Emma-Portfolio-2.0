@@ -16,7 +16,7 @@ html, body {
 }
 
 .navbar-brand {
-    padding-right: 2rem;;
+    padding-right: 2rem;
 }
 #nav-link {
     font-size: 24px;
@@ -97,25 +97,37 @@ li:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
     #container1-images {
         width: 100%;
     }
     #container1-intro {
         width: 100%;
     }
+
+    #container1-introduction {
+        padding-top: 2rem;
+    }
+    
     .wrapper {
         width: 100%;
     }   
+    .carousel-inner {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+    .media {
+       padding-left: 3rem;
+   }
+    
+   .navbar-toggler{
+       background-color: black'
+    }
 }
 
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media screen and (max-width: 575.98px) { 
-#navbar-toggler-color {
-    color:black;
-}
-
-}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
@@ -132,4 +144,5 @@ li:hover {
 
 }
 
-/* Extra large devices (large desktops) */
+/* Extra large devices (large desktops) */}
+

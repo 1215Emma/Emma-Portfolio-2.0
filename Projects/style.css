@@ -78,4 +78,45 @@ body, html{
 
 #project-container {
     padding-bottom: 2em;
+    padding-top: 3rem;
 }
+
+#headerforprojects2 {
+    padding-top: 2rem;
+    font-size: 36px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media screen and (max-width: 575.98px) { 
+        #project-container {
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+        }
+
+        #headerforproject1 {
+            text-align: center;
+        }
+    }
+    
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+    
+    }
+    
+    /*  Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+    
+    }
+    
+    /* Large devices (desktops, less than 1200px)*/
+    @media (max-width: 1199.98px) {
+    
+    }
+    
+    /* Extra large devices (large desktops) */}
+    
+    

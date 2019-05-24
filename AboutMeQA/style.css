@@ -74,3 +74,37 @@ html, body{
     font-size: 20px;
 }
 
+@media screen and (max-width: 768px) {
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media screen and (max-width: 575.98px) { 
+        #AboutMeHeader, #AboutMeBody {
+            text-align: center;
+        }
+        #AboutMeBody h2{
+            padding-top: 2rem;
+        }
+        #AboutMeBody p {
+            padding-top: 1rem;
+        }
+    }
+    
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+    
+    }
+    
+    /*  Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+    
+    }
+    
+    /* Large devices (desktops, less than 1200px)*/
+    @media (max-width: 1199.98px) {
+    
+    }
+    
+    /* Extra large devices (large desktops) */}
+    
+    
