@@ -28,13 +28,17 @@ body, html{
   #Nav-links3 {
       font-size: 24px;
       color: white;
-      padding-left: 98rem;
   }
+
   #navbarDropdown {
       font-size: 24px;
       color: white;
       padding-left: 2rem;
   }
+  
+.navbar-light .navbar-toggler {
+    border: none;
+}
 
 #project-1 {
     background-color: pink; 

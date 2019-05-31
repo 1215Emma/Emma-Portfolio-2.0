@@ -32,6 +32,9 @@ html, body {
     color: white;
 }
 
+.navbar-light .navbar-toggler {
+    border: none;
+}
 #first-container {
     color: lightslategray;
     font: solid;
@@ -96,8 +99,6 @@ li:hover {
     color: black;
 }
 
-@media screen and (max-width: 768px) {
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) { 
     #container1-images {
@@ -122,10 +123,6 @@ li:hover {
     .media {
        padding-left: 3rem;
    }
-    
-   .navbar-toggler{
-       background-color: black'
-    }
 }
 
 
@@ -144,5 +141,5 @@ li:hover {
 
 }
 
-/* Extra large devices (large desktops) */}
+/* Extra large devices (large desktops) */
 
