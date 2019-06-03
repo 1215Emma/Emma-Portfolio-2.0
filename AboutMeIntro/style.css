@@ -33,7 +33,11 @@ html, body{
 #navbarDropdown {
     font-size: 24px;
     color: white;
-    padding-left: 2rem;
+    
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
 }
 
 .navbar-light .navbar-toggler {
@@ -46,7 +50,7 @@ html, body{
 }
 
 #p1 {
-    padding-left: 10em;
+    padding-right: 2rem;
     font-size: 24px;
     color: black;
 }
