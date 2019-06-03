@@ -28,14 +28,16 @@ html, body{
 #Nav-links3 {
     font-size: 24px;
     color: white;
-    padding-left: 90rem;
 }
 
 #navbarDropdown {
     font-size: 24px;
     color: white;
-    padding-left: 2rem;
 }  
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
 
 #ContactMeForm {
     padding-left: 2em;

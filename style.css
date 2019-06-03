@@ -32,6 +32,10 @@ html, body {
     color: white;
 }
 
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
 #first-container {
     color: lightslategray;
     font: solid;
@@ -76,7 +80,6 @@ html, body {
 .media {
     position: absolute;
     display: inline-block;
-    
 }
 .media li {
     list-style: none;
@@ -120,7 +123,7 @@ li:hover {
         padding-bottom: 3rem;
     }
     .media {
-       padding-left: 3rem;
+       padding-left: 7%;
    }
     
    .navbar-toggler{

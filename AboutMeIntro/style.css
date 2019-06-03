@@ -28,13 +28,16 @@ html, body{
 #Nav-links3 {
     font-size: 24px;
     color: white;
-    padding-left: 98rem;
 }
 
 #navbarDropdown {
     font-size: 24px;
     color: white;
-    padding-left: 2rem;
+    
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
 }
 
 #header1 {
@@ -44,7 +47,7 @@ html, body{
 }
 
 #p1 {
-    padding-left: 10em;
+    padding-right: 2rem;
     font-size: 24px;
     color: black;
 }
