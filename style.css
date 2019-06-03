@@ -35,6 +35,7 @@ html, body {
 .navbar-light .navbar-toggler {
     border: none;
 }
+
 #first-container {
     color: lightslategray;
     font: solid;
@@ -77,25 +78,30 @@ html, body {
 }
 
 .media {
-    position: absolute;
-    display: inline-block;
+    width: 100%;
+    display: block;
+    text-align:center;
+
+}
+.media ul
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
 }
 .media li {
     list-style: none;
     margin: 10px 30px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     color: palevioletred;
     transition: .5s;
+    width: 12%;
 }
 
 li:hover {
     color: #292929;
     transition: .5s;
-}
-
-.dropdown-menu {
-    color: black;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -126,8 +132,24 @@ li:hover {
 
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media screen and (max-width: 767.98px) { 
+    
+    li:hover {
+        color: #292929;
+        transition: .5s;
+    }
 
+    .media {
+        display: none;
+    }
+    
+    .wrapper {
+        display: none;
+    }
+
+    .carousel-inner {
+        height: 45rem;
+    }
 }
 
 /*  Medium devices (tablets, less than 992px) */
@@ -135,10 +157,6 @@ li:hover {
 
 }
 
-/* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-
-}
-
 /* Extra large devices (large desktops) */
+
 
