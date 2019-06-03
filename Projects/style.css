@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-body, html{
+body, html {
     font-size: 10px;
     font-family: "roboto Cn", sans-serif;
     overflow-x: hidden;
@@ -22,18 +22,18 @@ body, html{
 
 #nav-link {
     font-size: 24px;
-      color: white;
-  }
+    color: white;
+}
   
-  #Nav-links3 {
-      font-size: 24px;
-      color: white;
-  }
+#Nav-links3 {
+    font-size: 24px;
+    color: white;
+}
 
-  #navbarDropdown {
-      font-size: 24px;
-      color: white;
-  }
+#navbarDropdown {
+    font-size: 24px;
+    color: white;
+}
   
 .navbar-light .navbar-toggler {
     border: none;
@@ -95,35 +95,36 @@ body, html{
 }
 
 @media screen and (max-width: 768px) {
+    
+}
 
-    /* Extra small devices (portrait phones, less than 576px) */
-    @media screen and (max-width: 575.98px) { 
-        #project-container {
-        padding-top: 3rem;
-        padding-bottom: 0rem;
-        }
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+    #project-container {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    }
 
-        #headerforproject1 {
-            text-align: center;
-        }
+    #headerforproject1 {
+        text-align: center;
     }
-    
-    
-    /* Small devices (landscape phones, less than 768px) */
-    @media (max-width: 767.98px) { 
-    
-    }
-    
-    /*  Medium devices (tablets, less than 992px) */
-    @media (max-width: 991.98px) {
-    
-    }
-    
-    /* Large devices (desktops, less than 1200px)*/
-    @media (max-width: 1199.98px) {
-    
-    }
-    
-    /* Extra large devices (large desktops) */}
-    
-    
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops) */
+
